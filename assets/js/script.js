@@ -21,15 +21,6 @@ option.forEach((option) => {
     });
 });
 
-// Function to get value from font awesome icons
-
-// function iconChoice(playerInput) {
-//     if (playerInput.nodeName === 'I') {
-//         return playerInput.parentElement.classList[1];
-//     }
-//     return playerInput.classList[1];
-// }
-
 // Checking current game
 function inspectInput(playerInput, cpuInput) {
     const currentGame = `${playerInput} vs ${cpuInput}`;
@@ -122,4 +113,21 @@ function ifWinner() {
         return true;
     }
     return false;
+}
+
+// add collapse function on rules button
+var collapseBtn = document.getElementsByClassName("btn-collapse");
+var i;
+
+for (i = 0; i < collapseBtn.length; i++) {
+    collapseBtn[i].addEventListener('click', function() {
+        this.classList.toggle('active');
+        var rules = this.nextElementSibling;
+        if (rules.style.maxHeight) {
+            rules.style.maxHeight = null;
+        } else {
+            rules.style.maxHeight = rules.scrollHeight + 'px';
+            rules.style.maxWidth = rules.scrollHeight + 'px';
+        }
+    });
 }

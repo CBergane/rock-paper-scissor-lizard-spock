@@ -14,17 +14,37 @@ body {
     border-color: rgb(77, 168, 116);
     border-radius: 15px;
     box-shadow: 20px 20px 15px rgb(48, 134, 75);
-    max-width: 700px;
+    width: 700px;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    display: table;
 }
 
 .logo ul {
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+    padding-left: 23%;
 }
 
+ul.horizontal li {
+    display: inline-block;
+    padding: 0 1rem;
+    min-width: 2rem;
+    text-align: center;
+}
 
+ul.horizontal li:not(:last-child) {
+    border-right: 2px solid rgb(216, 233, 137);
+}
+
+.game-pit{
+    position: relative;
+    z-index: 1;
+}
 
 /* Button styling */
 
@@ -32,6 +52,7 @@ body {
     font-size: 3.5rem;
     border-radius: 50%;
     border: 5px solid;
+    cursor: pointer;
 }
 
 .rock {
@@ -99,3 +120,25 @@ body {
     transition: 0.5s;
 }
 
+/* Rules button */
+
+.btn-collapse{
+    background-color: rgb(48, 134, 75);
+    color: rgb(216, 233, 137); 
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+    float: right;
+}
+
+.rules {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    background-color: rgba(48, 134, 75, 0.8);
+    margin-top: 40px;
+    border-radius: 10px;
+}
