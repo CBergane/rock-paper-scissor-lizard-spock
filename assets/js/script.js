@@ -5,11 +5,14 @@ let cpuScore = 0;
 // add event listener on click for buttons options
 option.forEach((option) => {
     option.addEventListener('click', function () {
-        const playerInput = this.textContent;
+        const playerInput = this.value;
 
         // Games option in a array and a loop to make a random choice
         const cpuOptions = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
         const cpuInput = cpuOptions[Math.floor(Math.random() * 5)];
+
+      
+
 
         inspectInput(playerInput, cpuInput);
         updateScore();
@@ -21,6 +24,15 @@ option.forEach((option) => {
     });
 });
 
+// Function to get value from font awesome icons
+
+// function iconChoice(playerInput) {
+//     if (playerInput.nodeName === 'I') {
+//         return playerInput.parentElement.classList[1];
+//     }
+//     return playerInput.classList[1];
+// }
+
 // Checking current game
 function inspectInput(playerInput, cpuInput) {
     const currentGame = `${playerInput} vs ${cpuInput}`;
@@ -31,68 +43,68 @@ function inspectInput(playerInput, cpuInput) {
         return;
     }
 
-    // rock
+    // If player choses rock
     if (playerInput === 'Rock') {
         if (cpuInput === 'Scissors') {
-            alert(`${currentGame} = you win!`);
+            alert(`${currentGame} - you win!`);
             playerScore++;
     } else if (cpuInput === 'Lizard') {
-            alert(`${currentGame} = you win!`);
+            alert(`${currentGame} - you win!`);
             playerScore++;
     } else {
-            alert(`${currentGame} = you lose!`);
+            alert(`${currentGame} - you lose!`);
             cpuScore++;
     }
     }
-    //  paper
+    // If player choses  paper
     else if (playerInput === 'Paper') {
         if (cpuInput === 'Rock') {
-            alert(`${currentGame} = you win!`);
+            alert(`${currentGame} - you win!`);
             playerScore++;
     } else if (cpuInput === 'Spock') {
-            alert(`${currentGame} = you win!`);
+            alert(`${currentGame} - you win!`);
             playerScore++;
     } else {
-            alert(`${currentGame} = you lose!`);
+            alert(`${currentGame} - you lose!`);
             cpuScore++;
     }
     }
-    // scissors
+    // If player choses scissors
     else if (playerInput === 'Scissors') {
         if (cpuInput === 'Paper') {
-            alert(`${currentGame} = you win!`);
+            alert(`${currentGame} - you win!`);
             playerScore++;
     } else if (cpuInput === 'Lizard') {
-            alert(`${currentGame} = you win!`);
+            alert(`${currentGame} - you win!`);
             playerScore++;
     } else {
-            alert(`${currentGame} = you lose!`);
+            alert(`${currentGame} - you lose!`);
             cpuScore++;
     }
     }
-    // lizard
+    // If player choses lizard
     else if (playerInput === 'Lizard') {
         if (cpuInput === 'Paper') {
-            alert(`${currentGame} = you win!`);
+            alert(`${currentGame} - you win!`);
             playerScore++;
     } else if (cpuInput === 'Spock') {
-            alert(`${currentGame} = you win!`);
+            alert(`${currentGame} - you win!`);
             playerScore++;
     } else {
-            alert(`${currentGame} = you lose!`);
+            alert(`${currentGame} - you lose!`);
             cpuScore++;
     }
     } 
-    // spock
+    // If player choses spock
     else if (playerInput === 'Spock') {
         if (cpuInput === 'Rock') {
-            alert(`${currentGame} = you win!`);
+            alert(`${currentGame} - you win!`);
             playerScore++;
     } else if (cpuInput === 'Scissors') {
-            alert(`${currentGame} = you win!`);
+            alert(`${currentGame} - you win!`);
             playerScore++;
     } else {
-            alert(`${currentGame} = you lose!`);
+            alert(`${currentGame} - you lose!`);
             cpuScore++;
     }
     }
