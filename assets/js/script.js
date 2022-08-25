@@ -11,9 +11,6 @@ option.forEach((option) => {
         const cpuOptions = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
         const cpuInput = cpuOptions[Math.floor(Math.random() * 5)];
 
-      
-
-
         inspectInput(playerInput, cpuInput);
         updateScore();
         if (ifWinner()) {
