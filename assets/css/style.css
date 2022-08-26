@@ -8,6 +8,11 @@ body {
     text-transform: uppercase;
 }
 
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .logo {
     border: 5px solid;
@@ -126,19 +131,61 @@ ul.horizontal li:not(:last-child) {
     background-color: rgb(48, 134, 75);
     color: rgb(216, 233, 137); 
     cursor: pointer;
+    width: 100%;
     padding: 15px;
     border: none;
-    border-radius: 10px;
     margin-top: 40px;
     float: right;
 }
 
 .rules {
-    padding: 0 18px;
+    padding: 0 34px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease-in-out;
     background-color: rgba(48, 134, 75, 0.8);
-    margin-top: 40px;
-    border-radius: 10px;
+    margin: 0;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 900px){
+
+    .btn-collapse{
+        width: 100%;
+    }
+
+    .rules {
+        position: relative;
+        left: 0;
+        max-width: 0;
+        margin: 0;
+    }
+}
+@media screen and (max-width:400px){
+    
+    .logo {
+        width: auto;
+    }
+
+    .logo ul {
+        font-size: small;
+        padding: 0;
+    }
+
+    .btn{
+        font-size: 2.5rem;
+    }
+
+    .btn-collapse{
+        border-radius: 0;
+    }
+
+    .rules {
+        height: 280px;
+        border-radius: 0;
+    }
+    .rules img {
+        visibility: hidden;
+    }
 }
