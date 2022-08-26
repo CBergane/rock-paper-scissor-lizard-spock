@@ -166,6 +166,7 @@ ul.horizontal li:not(:last-child) {
     
     .logo {
         width: auto;
+        padding: 0;
     }
 
     .logo ul {
@@ -184,6 +185,8 @@ ul.horizontal li:not(:last-child) {
     .rules {
         height: 280px;
         border-radius: 0;
+        padding: 0 1px;
+        max-width: 100%;
     }
     .rules img {
         visibility: hidden;
