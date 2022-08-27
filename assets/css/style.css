@@ -137,6 +137,8 @@ ul.horizontal li:not(:last-child) {
     border: none;
     margin-top: 40px;
     float: right;
+    text-transform: uppercase;
+    font-size: larger;
 }
 
 .rules {
