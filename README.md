@@ -1,4 +1,4 @@
-# Rock, paper, scissors, lizard, spock
+# Rock, paper, scissors, lizard, Spock
 
 ![Rock, Paper, Scissors, Lizard, Spock](assets/readme/mockup.jpeg)
 
@@ -34,3 +34,32 @@ Try it out [here](http://https://cbergane.github.io/rock-paper-scissor-lizard-sp
     2. [Media](#media)
     3. [Code](#code)
 8. [Acknowledgments](#acknowledgments)
+
+***
+
+## User Experience UX
+
+### Project Goals
+
+* This website is a simple and short fun game of the classic game "Rock, Paper, Scissors" but with added two more choices.
+* You play against the game itself with 5 choices, first to 10 wins will take home the victory.
+
+
+### Color Scheme
+![Color Scheme image](assets/readme/colors.jpeg)
+
+I chose these colors to make a feel like a retro game.
+
+### Typography
+
+For the font, I went for Barlow Semi Condensed, since it felt a bit retro as well and a fallback of Sans-Serif if Barlow isn't loaded correctly.
+
+### Wireframes
+
+[Balsamiq](https://balsamiq.com) was used to build the wireframes to showcase the elements of the site.
+
+Page | Desktop version
+--- | ---
+Index | ![Desktop index wireframe image](assets/wireframes/Rock%20Paper%20Scissors%20Lizard%20Spock.png)
+
+[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-Spock)
