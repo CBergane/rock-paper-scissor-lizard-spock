@@ -4,7 +4,7 @@
 
 A game of Rock, Paper, Scissors, Lizard, Spock made with HTML, CSS and JavaScript.
 
-Try it out [here](http://https://cbergane.github.io/rock-paper-scissor-lizard-spock/).
+Try it out [here](https://cbergane.github.io/rock-paper-scissor-lizard-spock/).
 
 ## Table of Content
 
