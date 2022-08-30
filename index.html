@@ -7,21 +7,26 @@
     <meta name="description" content="Small fun game of rock, paper, scissors, lizard, spock">
     <meta name="keywords" content="game, javascript, rock, paper, scissors, lizard, spock">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- link for favicon -->
+    <link type="image/png" sizes="16x16" rel="icon" href="favicon.png">
     <title>Rock-Paper-Scissors-Lizard-Spock</title>
 </head>
 <body>
 <div class="game-container">
-<div>
-    <section class="logo">
-        <ul class="horizontal">
-            <li>Rock</li>
-            <li>Paper</li>
-            <li>Scissor</li>
-            <li>Lizard</li>
-            <li>Spock</li>
-        </ul>
-    </section>
+    <div class="logo-container">
+        <!-- A list to tell what the name of the game is -->
+        <section class="logo">
+            <ul class="horizontal">
+                <li>Rock</li>
+                <li>Paper</li>
+                <li>Scissor</li>
+                <li>Lizard</li>
+                <li>Spock</li>
+            </ul>
+        </section>
+    </div>
 <div class="game-pit">
+    <!-- Main score area and the win conditions of the game -->
 <section class="score-board">
     <div class="main">
         <h1>Can you beat the game?</h1>
@@ -29,7 +34,7 @@
         <h3>Player <span id="player-score"> 0 </span> - <span id="cpu-score"> 0 </span> CPU</h3>
     </div>
 </section>
-
+<!-- Where the player makes the choices to start the game -->
 <section class="player-controll">
     <div class="player-option">
         <button class="option btn rock" value="Rock" aria-label="Rock"><span class="fa-solid fa-hand-back-fist"></span></button>
@@ -39,15 +44,15 @@
         <button class="option btn spock" value="Spock" aria-label="Spock"><span class="fa-solid fa-hand-spock"></span></button>
     </div>
 </section>
-
+<!-- A button that describes the rules of the game -->
 <button type="button" class="btn-collapse" aria-label="Rules">Rules!</button>
-<div class="rules ">
-    <p>
-    Scissors cuts paper,<br> paper covers rock,<br> rock crushes lizard,<br> lizard poisons Spock,<br> Spock smashes scissors,<br> scissors decapitates lizard,<br> lizard eats paper,<br> paper disproves Spock,<br> Spock vaporizes rock,<br> and as it always has,<br> rock crushes scissors.<br>
-    </p>
-    <img src="assets/images/rules.png" alt="rules image">
-</div>
-</div>
+    <div class="rules ">
+        <p>
+        Scissors cuts paper,<br> paper covers rock,<br> rock crushes lizard,<br> lizard poisons Spock,<br> Spock smashes scissors,<br> scissors decapitates lizard,<br> lizard eats paper,<br> paper disproves Spock,<br> Spock vaporizes rock,<br> and as it always has,<br> rock crushes scissors.<br>
+        </p>
+        <img src="assets/images/rules.png" alt="rules image">
+    </div>
+
 </div>
 </div>
 <script src="assets/js/script.js"></script>
