@@ -1,4 +1,4 @@
-# Rock, paper, scissors, lizard, Spock
+# Rock, paper, scissors, lizard, spock
 
 ![Rock, Paper, Scissors, Lizard, Spock](assets/readme/mockup.jpeg)
 
@@ -60,6 +60,6 @@ For the font, I went for Barlow Semi Condensed, since it felt a bit retro as wel
 
 Page | Desktop version
 --- | ---
-Index | ![Desktop index wireframe image](assets/wireframes/Rock%20Paper%20Scissors%20Lizard%20Spock.png)
+Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-lizard-spock.png)
 
-[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-Spock)
+[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-spock)
