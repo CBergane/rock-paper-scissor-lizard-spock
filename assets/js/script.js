@@ -61,18 +61,17 @@ function ifWinner() {
 }
 
 // add collapse function on rules button
-var collapseBtn = document.getElementsByClassName("btn-collapse");
-var i;
+let collapseBtn = document.getElementsByClassName("btn-collapse");
+let collapse;
 
-for (i = 0; i < collapseBtn.length; i++) {
-    collapseBtn[i].addEventListener('click', function() {
+for (collapse = 0; collapse < collapseBtn.length; collapse++) {
+    collapseBtn[collapse].addEventListener('click', function() {
         this.classList.toggle('active');
-        var rules = this.nextElementSibling;
+        let rules = this.nextElementSibling;
         if (rules.style.maxHeight) {
             rules.style.maxHeight = null;
         } else {
             rules.style.maxHeight = rules.scrollHeight + 'px';
-            rules.style.maxWidth = rules.scrollHeight + 'px';
         }
     });
 }

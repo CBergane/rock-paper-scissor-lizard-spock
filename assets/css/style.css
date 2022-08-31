@@ -183,12 +183,12 @@ ul.horizontal li:not(:last-child) {
         padding: 0;
     }
 
-    .player-control{
+    .player-option{
         height: 100px;
     }
 
     .btn{
-        font-size: 2rem;
+        font-size: 30px;
     }
 
     .btn-collapse{
