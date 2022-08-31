@@ -183,6 +183,10 @@ ul.horizontal li:not(:last-child) {
         padding: 0;
     }
 
+    .player-control{
+        height: fit-content;
+    }
+
     .btn{
         font-size: 2rem;
     }
