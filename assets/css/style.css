@@ -184,7 +184,7 @@ ul.horizontal li:not(:last-child) {
     }
 
     .player-control{
-        height: fit-content;
+        height: 100px;
     }
 
     .btn{
