@@ -24,8 +24,7 @@ Try it out [here](https://cbergane.github.io/rock-paper-scissor-lizard-spock/).
     1. [Testing audience stories](#testing-audience-stories)
     2. [Code validation](#code-validation)
     3. [Accessibility](#accessibility)
-    4. [Tools Testing](#tools-testing)
-    5. [Manual Testing](#manual-testing)
+    4. [Manual Testing](#manual-testing)
 5. [Finished Project](#finished-project)
 6. [Deployment](#deployment)
     1. [GitHub Page](#github-page)
@@ -215,7 +214,7 @@ Index | ![Desktop version screenshot](assets/readme/index.png) | ![Mobile versio
 
 ## Deployment
 * This website was developed using [VS Studio Code](https://code.visualstudio.com), which was then committed and pushed to GitHub using the VS Studio terminal.
-### GitHub Pages
+### GitHub Page
 
 * I followed these steps to deploy my site on GitHub.
     1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
@@ -237,9 +236,12 @@ Index | ![Desktop version screenshot](assets/readme/index.png) | ![Mobile versio
 * [Big bang theory fan page](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
     -  The rule image was taken from a fan page to the Big bang theory show.
 
+* [Favicon](https://www.favicon.cc) 
+    - Converted the "rules" image into a favicon from this page.
+
 ### Code
 
-* [Love Math](https://codeinstitute.net/) was used as a main source of inspiration for the design of the buttons. [Stack Overflow](https://stackoverflow.com/) was used to understand some concepts of the game and the collapse button.
+* [Love Math](https://codeinstitute.net/) was used as a main source of inspiration for the design of the buttons. [Stack Overflow](https://stackoverflow.com/) was used to understand some concepts of the game and the collapse button. [Competent Programing](https://www.youtube.com/watch?v=lV2BMXdsDmc) for inspiration on the code.
 
 [Back to top ⇧](#Rock,-paper,-scissors,-lizard,-spock)
 
