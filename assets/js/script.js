@@ -1,4 +1,5 @@
-const option = document.querySelectorAll(".option");
+/*jshint esversion: 6 */
+const option = document.querySelectorAll('.option');
 const allOptions = ['Rock', 'Paper', 'Scissors', 'Spock', 'Lizard'];
 let playerScore = 0;
 let cpuScore = 0;
@@ -51,9 +52,8 @@ function updateScore() {
 function ifWinner() {
     if (playerScore === 10 || cpuScore === 10) {
         const win =
-            playerScore === 10
-            ? "You beat the game! Well done! Luck is on your side!"
-            : "Better luck next time! Cpu wins!";
+            playerScore === 10 ? "You beat the game! Well done! Luck is on your side!"
+             :"Better luck next time! Cpu wins!";
         alert(win);
         return true;
     }

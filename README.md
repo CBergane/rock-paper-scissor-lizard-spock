@@ -111,7 +111,7 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
 
 * [Am I Responsive?](http://ami.responsivedesign.is/#)
 
-    - Am I Responsive was used to see responsive design throughout the process and to generate a mockup image.
+    - "Am I Responsive" was used to see responsive design throughout the process and to generate a mockup image.
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 
@@ -142,5 +142,103 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
 
 * The [W3C Markup Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator), * [jshint](https://jshint.com) were used to validate the site.
 
-    - The [W3C Markup Validator](https://validator.w3.org/) found no errors in my HTML, but two warnings were found but I disregarded them since I used a list to make the main logo.
+    - The [W3C Markup Validator](https://validator.w3.org/) found no errors in my HTML, but two warnings were found, I disregarded them since I used a list to make the main logo.
     ![W3C Markup Validator index](assets/readme/html-checker.png)
+
+    - The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) found no errors in my CSS.
+    ![W3C CSS Validator](assets/readme/css-validator.png)
+
+    - [jshint](https://jshint.com) fond 6 functions, 2 arguments. Largest function has 7 statements, the most complex function has a cyclomatic complexity value of 4.
+    ![jshint](assets/readme/jshint.png)
+
+### Accessibility
+
+* Used lighthouse to measure accessibility in Chrome DevTools.
+* Lighthouse report
+
+    - Landing page.
+    ![Lighthouse report](assets/readme/lighthouse.jpeg)
+
+* Responsiveness
+
+    - [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check the responsiveness of the site pages across different devices.
+
+    - Chrome DevTools was used to test responsiveness in different screen sizes during the development process.
+
+### Manual Testing
+
+* Browser Compatibility
+
+    - The website has been tested on the following browsers:
+
+    **Google Chrome**
+        
+        No appearance, responsiveness nor functionality issues.
+
+    **Safari**
+        
+        No appearance, responsiveness nor functionality issues.
+
+* Device compatibility
+
+    - The website has been tested on the following devices:
+
+    **MacBook Air**
+
+    No appearance, responsiveness nor functionality issues.
+
+    **iPhone 12pro**
+
+    No appearance, responsiveness nor functionality issues.
+
+    **Ipad mini**
+
+    No appearance, responsiveness nor functionality issues.
+
+[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-spock)
+
+## Finished Project
+
+Page | Desktop Version | Mobile Version 
+--- | --- | ---
+Index | ![Desktop version screenshot](assets/readme/index.png) | ![Mobile version screenshot](assets/readme/mobile.png)
+
+[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-spock)
+
+## Deployment
+* This website was developed using [VS Studio Code](https://code.visualstudio.com), which was then committed and pushed to GitHub using the VS Studio terminal.
+### GitHub Pages
+
+* I followed these steps to deploy my site on GitHub.
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
+    2. At the top of the Repository, locate the Settings button on the menu.
+    3. Scroll down the Settings page until you locate the Pages section.
+    4. Under Source, click the dropdown called None and select Master Branch.
+    5. The page will refresh automatically and generate a link to your website
+
+[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-spock)
+
+## Credits
+
+### Content
+
+- All content is written by the developer.
+
+### Media
+
+* [Big bang theory fan page](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
+    -  The rule image was taken from a fan page to the Big bang theory show.
+
+### Code
+
+* [Love Math](https://codeinstitute.net/) was used as a main source of inspiration for the design of the buttons. [Stack Overflow](https://stackoverflow.com/) was used to understand some concepts of the game and the collapse button.
+
+[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-spock)
+
+## Acknowledgments
+
+* Code Institute and its amazing Slack community for their support and for providing me with the necessary knowledge to complete this project.
+
+* To my friend Peter Billström who helped me with the code with some pointers and help when I got stuck.
+
+[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-spock)
