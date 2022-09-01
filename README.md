@@ -21,7 +21,7 @@ Try it out [here](https://cbergane.github.io/rock-paper-scissor-lizard-spock/).
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
 4. [Testing](#testing)
-        1. [Testing audience stories](#testing-audience-stories)
+    1. [Testing audience stories](#testing-audience-stories)
     2. [Code validation](#code-validation)
     3. [Accessibility](#accessibility)
     4. [Tools Testing](#tools-testing)
