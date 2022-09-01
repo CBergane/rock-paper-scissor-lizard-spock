@@ -42,8 +42,14 @@ Try it out [here](https://cbergane.github.io/rock-paper-scissor-lizard-spock/).
 ### Project Goals
 
 * This website is a simple and short fun game of the classic game "Rock, Paper, Scissors" but with added two more choices.
+
 * You play against the game itself with 5 choices, first to 10 wins will take home the victory.
 
+### Audience Story
+
+* The player experience of the site is just to understand what to do easily without explanation.
+
+* If there is any question about the rules there is an easy to find button that explains what the rules are.
 
 ### Color Scheme
 ![Color Scheme image](assets/readme/colors.jpeg)
