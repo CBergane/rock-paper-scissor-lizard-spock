@@ -139,6 +139,8 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
 
 ## Testing
 
+### Testing audience stories
+
 * When you arrive at the game I want as little confusion as possible for the player. Just start and go.
 * If you want to have a look at the rules of the game there is a button to explain them to you.
 * The score is visual for the player and what you need to do to win the game.
