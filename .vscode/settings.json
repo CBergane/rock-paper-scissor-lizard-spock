@@ -21,10 +21,11 @@
       "**/CVS": true
    },
    "files.autoSave": "off",
-   "workbench.colorTheme": "Visual Studio Dark",
+   "workbench.colorTheme": "Rosé Pine",
    "terminal.integrated.gpuAcceleration": "canvas",
    "editor.defaultFormatter": "HookyQR.beautify",
    "cSpell.ignoreWords": [
       "jshint"
-   ]
+   ],
+   "liveServer.settings.port": 5501
 }
