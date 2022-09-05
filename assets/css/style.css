@@ -3,7 +3,7 @@ body {
     align-items: center;
     text-align: center;
     color: rgb(216, 233, 137);
-    background-color: rgb(255, 255, 255);
+    background-color: #000;
     font-family: 'Barlow Semi Condensed', sans-serif;
     text-transform: uppercase;
     min-height: 100vh;
@@ -17,6 +17,23 @@ body {
 }
 
 /* bg-animation */
+.loading {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    margin: 0;
+}
+
+.loading h2 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    line-height: 80vh;
+    font-size: 4vw;
+    font-weight: 700;
+}
+
 .bg-animation{
     position: absolute;
     top: 0;
@@ -26,7 +43,7 @@ body {
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-    z-index: -1;
+    z-index: 1;
 }
 
 .bg-animation .block{
@@ -34,7 +51,7 @@ body {
     display: block;
     width: 5vw;
     height: 5vw;
-    animation: animate 0.75s ease-in-out forwards;
+    animation: animate 0.35s ease-in-out forwards;
 }
 
 .bg-animation .block:nth-child(even){
@@ -42,11 +59,11 @@ body {
 }
 
 .bg-animation .block:nth-child(7n+3){
-    animation: animate 2.5s ease-in-out forwards;
+    animation: animate 2s ease-in-out forwards;
 }
 
 .bg-animation .block:nth-child(7n+7){
-    animation: animate 3s ease-in-out forwards;
+    animation: animate 2.5s ease-in-out forwards;
 }
 
 @keyframes animate 
@@ -78,6 +95,8 @@ body {
 .game-container {
     animation: fadeIn 2.5s both;
     animation-delay: 13s;
+    z-index: 2;
+    position: absolute;
 }
 
 @keyframes fadeIn
@@ -284,10 +303,9 @@ ul.horizontal li:not(:last-child) {
     top: 0;
     left: 50%;
     padding: 0 34px 30px;
-    background: rgba(48, 134, 75, 0.8);
+    background: rgb(48, 134, 75);
     border-radius: 3px;
     transform: translate(-50%, -50%) scale(0.1);
-
     text-align: center;
     visibility: hidden;
 }
@@ -335,7 +353,6 @@ footer{
   }
 
   .fa-brands:hover {
-    opacity: 0.7;
     box-shadow: 10px 10px 5px rgb(48, 134, 75);
     transition: .6s;
   }
@@ -360,16 +377,19 @@ footer{
 
 @media screen and (max-width: 900px){
 
-    .btn-collapse{
-        width: 100%;
+    body {
+        background-color: rgb(25, 73, 57);
     }
 
-    .rules {
-        position: relative;
-        left: 0;
-        max-width: 0;
-        margin: 0;
+    .loading{
+        visibility: hidden;
     }
+
+    .game-container{
+        animation-delay: 0s;
+        
+    }
+
 }
 
 
@@ -379,6 +399,11 @@ footer{
         width: auto;
         padding: 0;
         box-shadow: none;   
+    }
+
+    .landing-page {
+        padding: 10px 6px;
+        margin: 20px;
     }
 
     .logo ul {
@@ -394,17 +419,8 @@ footer{
         font-size: 30px;
     }
 
-    .btn-collapse{
-        border-radius: 0;
-    }
-
     .rules {
-        height: 280px;
-        border-radius: 0;
-        padding: 0 1px;
-        max-width: 100%;
-    }
-    .rules img {
-        visibility: hidden;
+        width: 150px;
+        font-size: 10px;
     }
 }
