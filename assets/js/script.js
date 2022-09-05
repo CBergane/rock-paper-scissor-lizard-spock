@@ -6,17 +6,18 @@ let cpuScore = 0;
 const animation = document.getElementsByClassName('bg-animation')[0];
 const block = document.getElementsByClassName('block');
 
-// for the animated bg
 
-for (var i = 1; i < 400; i++){
-    animation.innerHTML += "<div class='block'></div>";
-    block[i].style.animationDelay = `${i*0.05}s`;
-}
+let startGame = document.querySelector('.score');
+
+function startEasyGame () {
+    startGame.classList.toggle('hidden');
+};
+
 
 // add event listener on click for buttons options
 option.forEach((option) => {
     option.addEventListener('click', function () {
-        
+
 
         // Games option in a array and a loop to make a random choice
         const playerInput = allOptions.indexOf(this.value);
@@ -77,4 +78,11 @@ function openRules(){
 }
 function closeRules(){
     rules.classList.remove("open-rules");
-}
+};
+
+// for the animated bg
+
+for (var i = 1; i < 400; i++){
+    animation.innerHTML += "<div class='block'></div>";
+    block[i].style.animationDelay = `${i*0.05}s`;
+};
