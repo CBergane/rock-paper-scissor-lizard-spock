@@ -3,6 +3,16 @@ const allOptions = ['Rock', 'Paper', 'Scissors', 'Spock', 'Lizard'];
 let playerScore = 0;
 let cpuScore = 0;
 
+const animation = document.getElementsByClassName('bg-animation')[0];
+const block = document.getElementsByClassName('block');
+
+// for the animated bg
+
+for (var i = 1; i < 400; i++){
+    animation.innerHTML += "<div class='block'></div>";
+    block[i].style.animationDelay = `${i*0.05}s`;
+}
+
 // add event listener on click for buttons options
 option.forEach((option) => {
     option.addEventListener('click', function () {
