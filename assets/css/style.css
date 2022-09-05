@@ -6,6 +6,9 @@ body {
     background-color: rgb(25, 73, 57);
     font-family: 'Barlow Semi Condensed', sans-serif;
     text-transform: uppercase;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .game-container {
@@ -170,6 +173,45 @@ ul.horizontal li:not(:last-child) {
         margin: 0;
     }
 }
+
+/* Social media footer*/
+
+footer{
+    margin-top: 100px;
+ }
+
+ .fa-brands {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 20px;
+    border-radius: 15%;
+    transition: box-shadow .6s ease-in-out;
+  }
+
+  .fa-brands:hover {
+    opacity: 0.7;
+    box-shadow: 10px 10px 5px rgb(48, 134, 75);
+    transition: .6s;
+  }
+
+.fa-instagram{
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    color: #fff;
+}
+
+.fa-facebook{
+    background:linear-gradient(-120deg, #021B79, #0575E6, #205E9B);
+    color: #fff
+}
+
+.fa-youtube {
+    background:linear-gradient(-120deg, #D62121, #C72C2C, #3a1111);
+    color: #fff;
+}
+
 @media screen and (max-width:420px){
     
     .logo {

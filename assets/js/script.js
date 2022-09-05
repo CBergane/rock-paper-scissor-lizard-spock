@@ -1,4 +1,3 @@
-/*jshint esversion: 6 */
 const option = document.querySelectorAll('.option');
 const allOptions = ['Rock', 'Paper', 'Scissors', 'Spock', 'Lizard'];
 let playerScore = 0;
