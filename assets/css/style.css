@@ -3,12 +3,13 @@ body {
     align-items: center;
     text-align: center;
     color: rgb(216, 233, 137);
-    background-color: rgb(25, 73, 57);
+    background-color: rgb(255, 255, 255);
     font-family: 'Barlow Semi Condensed', sans-serif;
     text-transform: uppercase;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .hidden {
@@ -54,12 +55,11 @@ body {
     {
         opacity: 0;
         transform: scale(0) translateY(1000px);
-
     }
     50%
     {
         opacity: 1;
-        background-color: rgb(0, 100, 0);
+        background-color: rgb(25, 73, 57);
         background-position: center;
         background-attachment: fixed;
     }
@@ -67,10 +67,23 @@ body {
     {
         opacity: 1;
         transform: scale(1) translateY(0px);
-        background-color: rgb(0, 100, 0);
+        background-color: rgb(25, 73, 57);
         background-position: center;
         background-attachment: fixed;
     }
+}
+
+/* the game loading fade in animation*/
+
+.game-container {
+    animation: fadeIn 2.5s both;
+    animation-delay: 13s;
+}
+
+@keyframes fadeIn
+{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 /* the logo  */
@@ -254,38 +267,69 @@ ul.horizontal li:not(:last-child) {
     background-color: rgb(48, 134, 75);
     color: rgb(216, 233, 137); 
     cursor: pointer;
-    width: 100%;
     height: 50px;
-    padding: 15px;
-    border: none;
+    padding: 10px 60px;
+    border: 0;
+    border-radius: 20px;
     margin-top: 40px;
-    float: right;
+    outline: none;
     text-transform: uppercase;
     font-size: larger;
+    font-weight: 500;
 }
 
 .rules {
-    padding: 0 34px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease-in-out;
-    background-color: rgba(48, 134, 75, 0.8);
-    margin: 0;
+    width: 400px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 0 34px 30px;
+    background: rgba(48, 134, 75, 0.8);
+    border-radius: 3px;
+    transform: translate(-50%, -50%) scale(0.1);
+
+    text-align: center;
+    visibility: hidden;
+}
+
+.open-rules {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 0.6s, top 0.5s;
+}
+
+.rules img {
+    width: 60%;
+}
+
+.rules button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: rgb(25, 73, 57);
+    color: rgb(216, 233, 137);
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 /* Social media footer*/
 
 footer{
-    margin-top: 100px;
+    margin-top: 80px;
  }
 
  .fa-brands {
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     width: 30px;
     text-align: center;
     text-decoration: none;
-    margin: 10px 20px;
+    margin: 5px 20px;
     border-radius: 15%;
     transition: box-shadow .6s ease-in-out;
   }

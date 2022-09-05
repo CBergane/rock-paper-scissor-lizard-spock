@@ -70,17 +70,11 @@ function ifWinner() {
 }
 
 // add collapse function on rules button
-let collapseBtn = document.getElementsByClassName("btn-collapse");
-let collapse;
+let rules = document.getElementById("rules");
 
-for (collapse = 0; collapse < collapseBtn.length; collapse++) {
-    collapseBtn[collapse].addEventListener('click', function() {
-        this.classList.toggle('active');
-        let rules = this.nextElementSibling;
-        if (rules.style.maxHeight) {
-            rules.style.maxHeight = null;
-        } else {
-            rules.style.maxHeight = rules.scrollHeight + 'px';
-        }
-    });
+function openRules(){
+    rules.classList.add("open-rules");
+}
+function closeRules(){
+    rules.classList.remove("open-rules");
 }
