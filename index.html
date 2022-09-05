@@ -13,54 +13,63 @@
 </head>
 <body>
 <div class="game-container">
-    <div class="logo-container">
+        <div class="logo-container">
         <!-- A list to tell what the name of the game is -->
-        <section class="logo">
-            <ul class="horizontal">
-                <li>Rock</li>
-                <li>Paper</li>
-                <li>Scissor</li>
-                <li>Lizard</li>
-                <li>Spock</li>
-            </ul>
+            <section class="logo">
+                <ul class="horizontal">
+                    <li>Rock</li>
+                    <li>Paper</li>
+                    <li>Scissor</li>
+                    <li>Lizard</li>
+                    <li>Spock</li>
+                </ul>
+            </section>
+        </div>
+    <div class="game-pit">
+        <section>
+            <div class="landing-page">
+                <h2>Welcome to RPSLS!</h2>
+                <h3>Plz select difficult lvl:</h3>
+                <span id="easy">Easy</span>
+                <span id="medium">Medium</span>
+                <span id="hard">Hard</span>
+            </div>
         </section>
-    </div>
-<div class="game-pit">
-    <!-- Main score area and the win conditions of the game -->
-<section class="score-board">
-    <div class="main">
-        <h1>Can you beat the game?</h1>
-        <h2>First to 10 will win the game!</h2>
-        <h3>Player <span id="player-score"> 0 </span> - <span id="cpu-score"> 0 </span> CPU</h3>
-    </div>
-</section>
-<!-- Where the player makes the choices to start the game -->
-<section class="player-control">
-    <div class="player-option">
-        <button class="option btn rock" value="Rock" aria-label="Rock"><span class="fa-solid fa-hand-back-fist"></span></button>
-        <button class="option btn paper" value="Paper" aria-label="Paper"><span class="fa-solid fa-hand"></span></button>
-        <button class="option btn scissors" value="Scissors" aria-label="Scissor"><span class="fa-solid fa-hand-scissors"></span></button>
-        <button class="option btn lizard" value="Lizard" aria-label="Lizard"><span class="fa-solid fa-dragon"></span></button>
-        <button class="option btn spock" value="Spock" aria-label="Spock"><span class="fa-solid fa-hand-spock"></span></button>
-    </div>
-</section>
-<!-- A button that describes the rules of the game -->
-<button type="button" class="btn-collapse" aria-label="Rules">Rules!</button>
-    <div class="rules ">
-        <p>
-        Scissors cuts paper,<br> paper covers rock,<br> rock crushes lizard,<br> lizard poisons Spock,<br> Spock smashes scissors,<br> scissors decapitates lizard,<br> lizard eats paper,<br> paper disproves Spock,<br> Spock vaporizes rock,<br> and as it always has,<br> rock crushes scissors.<br>
-        </p>
-        <img src="assets/images/rules.png" alt="rules image">
-    </div>
+        <!-- Main score area and the win conditions of the game -->
+        <div>
+            <section class="score-board">
+                <div class="main">
+                    <h1>Can you beat the </h1>
+                    <h2>First to 10 will win</h2>
+                    <h3>Player <span id="player-score"> 0 </span> - <span id="cpu-score"> 0 </span> CPU</h3>
+                </div>
+            </section>
+            <!-- Where the player makes the choices to start the game -->
+            <section class="player-control">
+                <div class="player-option">
+                    <button class="option btn rock" value="Rock" aria-label="Rock"><span class="fa-solid fa-hand-back-fist"></span></button>
+                    <button class="option btn paper" value="Paper" aria-label="Paper"><span class="fa-solid fa-hand"></span></button>
+                    <button class="option btn scissors" value="Scissors" aria-label="Scissor"><span class="fa-solid fa-hand-scissors"></span></button>
+                    <button class="option btn lizard" value="Lizard" aria-label="Lizard"><span class="fa-solid fa-dragon"></span></button>
+                    <button class="option btn spock" value="Spock" aria-label="Spock"><span class="fa-solid fa-hand-spock"></span></button>
+                </div>
+            </section>
+        </div>    
 
+<!-- A button that describes the rules of the game -->
+    <button type="button" class="btn-collapse" aria-label="Rules">Rules!</button>
+            <div class="rules ">
+            <p>
+            Scissors cuts paper,<br> paper covers rock,<br> rock crushes lizard,<br> lizard poisons Spock,<br> Spock smashes scissors,<br> scissors decapitates lizard,<br> lizard eats paper,<br> paper disproves Spock,<br> Spock vaporizes rock,<br> and as it always has,<br> rock crushes scissors.<br>
+            </p>
+            <img src="assets/images/rules.png" alt="rules image">
+        </div>
 </div>
-</div>
+
 <footer id="img-social-media">
     <a href="instagram.com" target="_blank" rel="noopener" aria-label="Follow us on instagram and get latest news on new games" class="fa-brands fa-instagram"></a>
     <a href="facebook.com" target="_blank" rel="noopener" arial-label="Follow our facebook page and interact with our players" class="fa-brands fa-facebook"></a>
     <a href="youtube.com" target="_blank" rel="noopener" arial-label="Follow our youtube page and get previews of new games" class="fa-brands fa-youtube"></a>
-
-
 </footer>
 <script src="assets/js/script.js"></script>
 <!-- font awesome java script -->
