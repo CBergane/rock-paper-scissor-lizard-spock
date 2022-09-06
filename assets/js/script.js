@@ -7,12 +7,22 @@ const animation = document.getElementsByClassName('bg-animation')[0];
 const block = document.getElementsByClassName('block');
 
 
-let startGame = document.querySelector('.score');
-
-function startEasyGame () {
-    startGame.classList.toggle('hidden');
+let startGames = document.querySelector('.score');
+let isShow = true;
+// starGame.style.display = 'none';
+//     function startEasyGame() {
+//         if (isShow) {
+//         starGame.style.display = 'block';
+//         isShow = false;
+//         }else{
+//             starGame.style.display = 'none';
+//         isShow = true;
+//         }
+// };
+function startGame(){
+    isShow = !isShow;
+    startGames.classList.toggle('hidden')
 };
-
 
 // add event listener on click for buttons options
 option.forEach((option) => {
@@ -36,18 +46,18 @@ option.forEach((option) => {
 // Checking current game
 function inspectInput(playerInput, cpuInput) {
     const currentGame = `${allOptions[playerInput]} vs ${allOptions[cpuInput]}`;
-    
+    const outcome = document.querySelector('#outcome');
         switch ((allOptions.length + cpuInput - playerInput) % allOptions.length) {
             case 0:
-                alert(`${currentGame} is a tie!!`);
+                outcome.innerHTML = (`${currentGame} is a tie!!`);
                 break;
             case 2:
             case 4:
-                alert(`${currentGame} - you win!`);
+                outcome.innerHTML = (`${currentGame} - you win!`);
                 playerScore++;
                 break;
             default:
-                alert(`${currentGame} - you lose!`);
+                outcome.innerHTML = (`${currentGame} - you lose!`);
                 cpuScore++;
                 break;
         }
@@ -64,7 +74,7 @@ function ifWinner() {
         const win =
             playerScore === 10 ? "You beat the game! Well done! Luck is on your side!"
              :"Better luck next time! Cpu wins!";
-        alert(win);
+        outcome.innerHTML = (win);
         return true;
     }
     return false;
