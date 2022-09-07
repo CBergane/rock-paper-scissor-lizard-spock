@@ -34,6 +34,7 @@ body {
     font-weight: 700;
 }
 
+/* adds a animation for the bg */
 .bg-animation{
     position: absolute;
     top: 0;
@@ -94,7 +95,7 @@ body {
 
 .game-container {
     animation: fadeIn 2.5s both;
-    animation-delay: 13s;
+    animation-delay: 8s;
     z-index: 2;
     position: absolute;
 }
@@ -153,7 +154,20 @@ ul.horizontal li:not(:last-child) {
     border-radius: 15px;
 }
 
-#easy {
+.btn-choice{
+    border: 1px solid rgb(77, 168, 116);
+    padding: 5px;
+    border-radius: 15px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.btn-choice:hover{
+    background-color: rgb(216, 233, 137);
+    color: rgb(25, 73, 57);
+    transition: 0.4s ease-in-out;
+}
+
+/* #easy {
     border: 1px solid rgb(77, 168, 116);
     padding: 5px;
     border-radius: 15px;
@@ -193,7 +207,7 @@ ul.horizontal li:not(:last-child) {
     background-color: rgb(216, 233, 137);
     color: rgb(25, 73, 57);
     transition: 0.4s ease-in-out;
-}
+} */
 
 /* Game board */
 
@@ -209,7 +223,7 @@ ul.horizontal li:not(:last-child) {
 /* Button styling */
 
 .btn {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     border-radius: 50%;
     border: 5px solid;
     cursor: pointer;
@@ -338,7 +352,7 @@ ul.horizontal li:not(:last-child) {
 /* Social media footer*/
 
 footer{
-    margin-top: 80px;
+    margin-top: 50px;
  }
 
  .fa-brands {

@@ -38,19 +38,20 @@
             <div class="landing-page" id="start-game">
                 <h2>Welcome to RPSLS!</h2>
                 <h3>Plz select difficult lvl:</h3>
-                <span id="easy" onclick="startGame()">Easy</span>
-                <span id="medium" onclick="startGame()">Medium</span>
-                <span id="hard" onclick="startGame()">Hard</span>
+                <span id="easy" class="btn-choice" onclick="startGame(5)">Easy</span>
+                <span id="medium" class="btn-choice" onclick="startGame(10)">Medium</span>
+                <span id="hard" class="btn-choice" onclick="startGame(15)">Hard</span>
             </div>
         </section>
         <!-- Main score area and the win conditions of the game -->
-        <div class="score hidden">
+        <div id="score" class="score hidden">
             <section class="score-board" id="score-board">
                 <div class="main">
-                    <h1>Can you beat the </h1>
-                    <h2>First to 10 will win</h2>
+                    <h1>Can you beat the game!</h1>
+                    <h2 id="conditions"></h2>
                     <h3>Player <span id="player-score"> 0 </span> - <span id="cpu-score"> 0 </span> CPU</h3>
                     <h3>Outcome: <span id="outcome"></span></h3>
+                    <span id="return" class="btn-choice" onclick="returnMenu()">Go back</span>
                 </div>
             </section>
             <!-- Where the player makes the choices to start the game -->
