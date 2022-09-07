@@ -349,6 +349,76 @@ ul.horizontal li:not(:last-child) {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
+/* Feedback */
+
+.feedback {
+    width: 350px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 0 34px 30px;
+    background: rgb(48, 134, 75);
+    border-radius: 5px;
+    transform: translate(-50%, -50%) scale(0.1);
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.open-feedback {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 0.6s, top 0.5s;
+}
+
+.feedback button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: rgb(25, 73, 57);
+    color: rgb(216, 233, 137);
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.feedback .name {
+    position: relative;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback .name input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(216, 233, 137);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(216, 233, 137);
+    outline: none;
+    background: transparent;
+}
+
+.feedback .name label {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(216, 233, 137);
+    pointer-events: none;
+    transition: top .5s ease-in;
+}
+
+
 /* Social media footer*/
 
 footer{
@@ -416,6 +486,10 @@ footer{
     .landing-page {
         padding: 10px 6px;
         margin: 20px;
+    }
+
+    .score-board {
+        margin: 10px 5px;
     }
 
     .logo ul {

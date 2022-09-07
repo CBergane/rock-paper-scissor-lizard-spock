@@ -75,6 +75,30 @@
             </p>
             <img src="assets/images/rules.png" alt="rules image">
         </div>
+
+<!-- a form for feedback -->
+    <button type="button" class="btn-collapse" onclick="openFeedback()" aria-label="Feedback">Feedback</button>
+        <div class="feedback" id="feedback">
+            <form class="form" action="https://formdump.codeinstitute.net" method="POST">
+
+                <h2>If you have any feedback please let us know </h2>
+                <div class="name">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="full-name" required>
+                </div>
+                <div class="name">   
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="comment">
+                    <label for="comment">Comment</label>
+                    <textarea name="comment" id="comment" rows="5"></textarea>
+                </div>
+                <button type="submit">Send!</button>
+
+                <button type="button" onclick="closeFeedback()" aria-label="Close Feedback">Close</button>
+            </form>
+        </div>
 </div>
 
 <footer id="img-social-media">

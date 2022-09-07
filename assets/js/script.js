@@ -8,6 +8,12 @@ let cpuScore = 0;
 const animation = document.getElementsByClassName('bg-animation')[0];
 const block = document.getElementsByClassName('block');
 
+// for the animated bg, adds divs to the html as a bg
+for (var i = 1; i < 400; i++){
+    animation.innerHTML += "<div class='block'></div>";
+    block[i].style.animationDelay = `${i*0.03}s`;
+};
+
 // hides and shows landing page and game page 
 let startGames = document.querySelector('.score');
 let isShow = true;
@@ -100,8 +106,13 @@ function closeRules(){
     rules.classList.remove("open-rules");
 };
 
-// for the animated bg, adds divs to the html as a bg
-for (var i = 1; i < 400; i++){
-    animation.innerHTML += "<div class='block'></div>";
-    block[i].style.animationDelay = `${i*0.03}s`;
+// add a function to open feedback button
+
+let feedback = document.getElementById("feedback");
+
+function openFeedback(){
+    feedback.classList.add("open-feedback");
+}
+function closeFeedback(){
+    feedback.classList.remove("open-feedback");
 };
