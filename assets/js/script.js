@@ -27,6 +27,7 @@ function startGame(wins){
     conditions.textContent = `If you get ${numWins} wins, you will win!`;
     playerScore = 0;
     cpuScore = 0;
+    updateScore();
 };
 
 let returnMenus = document.querySelector('.score');
