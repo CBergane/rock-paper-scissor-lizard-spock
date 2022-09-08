@@ -9,7 +9,7 @@ const animation = document.getElementsByClassName('bg-animation')[0];
 const block = document.getElementsByClassName('block');
 
 // for the animated bg, adds divs to the html as a bg
-for (var i = 1; i < 400; i++){
+for (var i = 1; i < 600; i++){
     animation.innerHTML += "<div class='block'></div>";
     block[i].style.animationDelay = `${i*0.03}s`;
 };
