@@ -175,7 +175,7 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
     - The [W3C Markup Validator](https://validator.w3.org/) found no errors in my HTML, but two warnings were found, I disregarded them since I used a list to make the main logo.
     ![W3C Markup Validator index](assets/readme/w3c-html-checker.png)
 
-    - The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) found no errors in my CSS.
+    - The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) found one warning that the import of style sheets won't be reviewed.
     ![W3C CSS Validator](assets/readme/jigsaw-css-validator.png)
 
     - [jshint](https://jshint.com) fond 6 functions, 2 arguments. The largest function has 7 statements, the most complex function has a cyclomatic complexity value of 4.
