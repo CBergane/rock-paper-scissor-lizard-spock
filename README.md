@@ -1,6 +1,6 @@
 # Rock, paper, scissors, lizard, Spock
 
-![Rock, Paper, Scissors, Lizard, Spock](assets/readme/mockup.jpeg)
+![Rock, Paper, Scissors, Lizard, Spock](assets/readme/mock-up.jpeg)
 
 A game of Rock, Paper, Scissors, Lizard, Spock made with HTML, CSS and JavaScript.
 
@@ -84,6 +84,14 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
 
     - The header contains a list with no links, only the game title since this is a one-page site.
 
+![Buttons](assets/readme/buttons.jpeg)
+
+    - The buttons for rules and the form.
+
+![Social media](assets/readme/social.jpeg)
+
+    - Links to social media that opens in a new tab.
+
 * **Game Page**
 
 ![Landing page](assets/readme/index-pick-lvl.png)
@@ -165,13 +173,13 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
 * The [W3C Markup Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator), * [jshint](https://jshint.com) were used to validate the site.
 
     - The [W3C Markup Validator](https://validator.w3.org/) found no errors in my HTML, but two warnings were found, I disregarded them since I used a list to make the main logo.
-    ![W3C Markup Validator index](assets/readme/html-checker.png)
+    ![W3C Markup Validator index](assets/readme/w3c-html-checker.png)
 
     - The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) found no errors in my CSS.
-    ![W3C CSS Validator](assets/readme/css-validator.png)
+    ![W3C CSS Validator](assets/readme/jigsaw-css-validator.png)
 
     - [jshint](https://jshint.com) fond 6 functions, 2 arguments. The largest function has 7 statements, the most complex function has a cyclomatic complexity value of 4.
-    ![jshint](assets/readme/jshint.png)
+    ![jshint](assets/readme/java-jshint-.png)
 
 ### Accessibility
 
@@ -179,7 +187,7 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
 * Lighthouse report
 
     - Landing page.
-    ![Lighthouse report](assets/readme/lighthouse.jpeg)
+    ![Lighthouse report](assets/readme/lighthouse-preform.jpeg)
 
 * Responsiveness
 
@@ -223,10 +231,10 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
 
 Page | Desktop Version | Mobile Version 
 --- | --- | ---
-Index-pick-lvl | ![Desktop version screenshot](assets/readme/index-pick-lvl.png) | ![Mobile version screenshot](assets/readme/mobile.png)
-Index-game | ![The game screenshot](assets/readme/index-game.png)
-Index-rules | ![The rules popup](assets/readme/index-rules.png)
-Index-form | ![The form popup](assets/readme/index-form.png)
+Index-pick-lvl | ![Desktop version screenshot](assets/readme/index-pick-lvl.png) | ![Mobile version screenshot](assets/readme/index-mobile.png)
+Index-game | ![The game screenshot](assets/readme/index-game.png) | ![Mobile version the game](assets/readme/game-mobile.png)
+Index-rules | ![The rules popup](assets/readme/index-rules.png) | ![Mobile version rules](assets/readme/rules-mobile.png)
+Index-form | ![The form popup](assets/readme/index-form.png) | ![Mobile version form](assets/readme/form-mobile.png)
 
 [Back to top ⇧](#Rock,-paper,-scissors,-lizard,-spock)
 
