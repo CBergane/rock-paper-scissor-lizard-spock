@@ -12,7 +12,7 @@ const block = document.getElementsByClassName('block');
 for (var i = 1; i < 600; i++){
     animation.innerHTML += "<div class='block'></div>";
     block[i].style.animationDelay = `${i*0.03}s`;
-};
+}
 
 // hides and shows landing page and game page 
 let startGames = document.querySelector('.score');
@@ -20,7 +20,7 @@ let isShow = true;
 
 function startGame(wins){
     isShow = !isShow;
-    startGames.classList.toggle('hidden')
+    startGames.classList.toggle('hidden');
     document.getElementById( 'start-game' ).style.display = 'none';
     numWins = wins;
     cpuWins = 10;
@@ -28,7 +28,7 @@ function startGame(wins){
     playerScore = 0;
     cpuScore = 0;
     updateScore();
-};
+}
 
 let returnMenus = document.querySelector('.score');
 let isReShow = true;
@@ -105,7 +105,7 @@ function openRules(){
 }
 function closeRules(){
     rules.classList.remove("open-rules");
-};
+}
 
 // add a function to open feedback button
 
@@ -116,4 +116,4 @@ function openFeedback(){
 }
 function closeFeedback(){
     feedback.classList.remove("open-feedback");
-};
+}
