@@ -69,7 +69,7 @@ Page | Desktop version
 --- | ---
 Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-lizard-spock.png)
 
-[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-spock)
+[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-Spock)
 
 ## Featured Design
 
@@ -113,7 +113,7 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
     - A button to go back to the choices of difficulty.
     - After the scoreboard, there are the player choices for the game, five buttons whit a hover effect on them to make sure the player makes the intended decision.
 
-[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-spock)
+[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-Spock)
 
 ## Technologies Used
 
@@ -157,7 +157,7 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
 
     - JSHint was used to validate the JavaScript code.
 
-[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-spock)
+[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-Spock)
 
 ## Testing
 
@@ -172,7 +172,7 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
 
 * The [W3C Markup Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator), * [jshint](https://jshint.com) were used to validate the site.
 
-    - The [W3C Markup Validator](https://validator.w3.org/) found no errors in my HTML, but two warnings were found, I disregarded them since I used a list to make the main logo.
+    - The [W3C Markup Validator](https://validator.w3.org/) found no errors in my HTML, but three warnings were found, I disregarded them since they are by choice and have a purpose.
     ![W3C Markup Validator index](assets/readme/w3c-html-checker.png)
 
     - The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) found one warning that the import of style sheets won't be reviewed.
@@ -225,7 +225,7 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
 
     No appearance, responsiveness nor functionality issues.
 
-[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-spock)
+[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-Spock)
 
 ## Finished Project
 
@@ -236,7 +236,7 @@ Index-game | ![The game screenshot](assets/readme/index-game.png) | ![Mobile ver
 Index-rules | ![The rules popup](assets/readme/index-rules.png) | ![Mobile version rules](assets/readme/rules-mobile.png)
 Index-form | ![The form popup](assets/readme/index-form.png) | ![Mobile version form](assets/readme/form-mobile.png)
 
-[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-spock)
+[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-Spock)
 
 ## Deployment
 * This website was developed using [VS Studio Code](https://code.visualstudio.com), which was then committed and pushed to GitHub using the VS Studio terminal.
@@ -249,7 +249,7 @@ Index-form | ![The form popup](assets/readme/index-form.png) | ![Mobile version 
     4. Under Source, click the dropdown called None and select Master Branch.
     5. The page will refresh automatically and generate a link to your website
 
-[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-spock)
+[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-Spock)
 
 ## Credits
 
@@ -269,7 +269,7 @@ Index-form | ![The form popup](assets/readme/index-form.png) | ![Mobile version 
 
 * [Love Math](https://codeinstitute.net/) was used as a main source of inspiration for the design of the buttons. [Stack Overflow](https://stackoverflow.com/) was used to understand some concepts of the game and the collapse button. [Competent Programing](https://www.youtube.com/watch?v=lV2BMXdsDmc) for inspiration on the code.
 
-[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-spock)
+[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-Spock)
 
 ## Acknowledgments
 
@@ -277,4 +277,6 @@ Index-form | ![The form popup](assets/readme/index-form.png) | ![Mobile version 
 
 * To my friend Peter Billström who helped me with the code with some pointers and help when I got stuck.
 
-[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-spock)
+* To my mentor Marcel, who pushed me to do better and bigger.
+
+[Back to top ⇧](#Rock,-paper,-scissors,-lizard,-Spock)
