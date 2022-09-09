@@ -42,13 +42,15 @@ Try it out [here](https://cbergane.github.io/rock-paper-scissor-lizard-spock/).
 
 * This website is a simple and short fun game of the classic game "Rock, Paper, Scissors" but with added two more choices.
 
-* You play against the game itself with 5 choices, first to 10 wins will take home the victory.
+* You play against the game itself with 5 choices, you chose a level of difficulty, easy, medium or hard.
 
 ### Audience Story
 
-* The player experience of the site is just to understand what to do easily without explanation.
+* The player's experience of the site is just to understand what to do easily without explanation.
 
-* If there is any question about the rules there is an easy to find button that explains what the rules are.
+* If there is any question about the rules there is an easy-to-find button that explains what the rules are.
+
+* If you want to submit any opinions or comments you have a form to fill out.
 
 ### Color Scheme
 ![Color Scheme image](assets/readme/colors.jpeg)
@@ -84,10 +86,23 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
 
 * **Game Page**
 
-![Game page](assets/readme/game-page.jpeg)
+![Landing page](assets/readme/index-pick-lvl.png)
+
+    - When you land on the page after a short animation loading sequence you are faced with 3 choices of difficulty.
+
+![Rules](assets/readme/index-rules.png)
+
+    - A popup div that explains the rules of the game.
+
+![Form](assets/readme/index-form.png)
+
+    - A popup form if the player has any comments.
+
+![Game page](assets/readme/game.jpeg)
 
     - The game container has a quick explanation of the game and the win conditions for the game.
     - Under that, the counter for both the player and the game is displayed.
+    - A button to go back to the choices of difficulty.
     - After the scoreboard, there are the player choices for the game, five buttons whit a hover effect on them to make sure the player makes the intended decision.
 
 [Back to top ⇧](#Rock,-paper,-scissors,-lizard,-spock)
@@ -155,7 +170,7 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
     - The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) found no errors in my CSS.
     ![W3C CSS Validator](assets/readme/css-validator.png)
 
-    - [jshint](https://jshint.com) fond 6 functions, 2 arguments. Largest function has 7 statements, the most complex function has a cyclomatic complexity value of 4.
+    - [jshint](https://jshint.com) fond 6 functions, 2 arguments. The largest function has 7 statements, the most complex function has a cyclomatic complexity value of 4.
     ![jshint](assets/readme/jshint.png)
 
 ### Accessibility
@@ -208,7 +223,10 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
 
 Page | Desktop Version | Mobile Version 
 --- | --- | ---
-Index | ![Desktop version screenshot](assets/readme/index.png) | ![Mobile version screenshot](assets/readme/mobile.png)
+Index-pick-lvl | ![Desktop version screenshot](assets/readme/index-pick-lvl.png) | ![Mobile version screenshot](assets/readme/mobile.png)
+Index-game | ![The game screenshot](assets/readme/index-game.png)
+Index-rules | ![The rules popup](assets/readme/index-rules.png)
+Index-form | ![The form popup](assets/readme/index-form.png)
 
 [Back to top ⇧](#Rock,-paper,-scissors,-lizard,-spock)
 
