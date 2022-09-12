@@ -423,6 +423,7 @@ ul.horizontal li:not(:last-child) {
 
 footer{
     margin-top: 50px;
+    z-index: 1;
  }
 
  .fa-brands {
