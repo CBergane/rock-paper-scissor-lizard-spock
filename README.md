@@ -102,7 +102,7 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
 
     - A popup div that explains the rules of the game.
 
-![Form](assets/readme/form.png)
+![Form](assets/readme/form.jpeg)
 
     - A popup form if the player has any comments.
 
