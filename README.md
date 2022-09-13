@@ -1,6 +1,6 @@
 # RPSLS
 
-![Rock, Paper, Scissors, Lizard, Spock](assets/readme/mock-up.jpeg)
+![Rock, Paper, Scissors, Lizard, Spock](assets/readme/responsive.jpeg)
 
 A game of Rock, Paper, Scissors, Lizard, Spock made with HTML, CSS and JavaScript.
 
