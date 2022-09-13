@@ -126,26 +126,6 @@ body {
     font-size: 2vw;
 }
 
-.logo ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    height: 100px;
-    align-items: center;
-    /* padding-left: 23%; */
-}
-
-ul.horizontal li {
-    display: inline-block;
-    padding: 0 1rem;
-    min-width: 2rem;
-    text-align: center;
-}
-
-ul.horizontal li:not(:last-child) {
-    border-right: 2px solid rgb(216, 233, 137);
-}
-
 /* landing page */
 
 .landing-page {
@@ -169,15 +149,17 @@ ul.horizontal li:not(:last-child) {
     transition: 0.4s ease-in-out;
 }
 
-
 /* Game board */
-
 .score-board {
     border: 2px solid rgb(77, 168, 116);
     padding: 20px;
     margin: 30px;
     width: 85%;
     border-radius: 15px;
+}
+
+#conditions {
+    font-size: 4vh;
 }
 
 /* Button styling */
