@@ -429,8 +429,13 @@ footer{
     }
 }
 
+@media screen and (max-width:1600px){
+    .logo h1 {
+        font-size: 1.5vw;
+    }
+}
+
 @media screen and (max-width:420px){
-    
     .logo {
         width: 95%;
         height: 100px;

@@ -80,9 +80,9 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
 
 * **General**
 
-![Game board header](assets/readme/game-board-header.jpeg)
+![Game board header](assets/readme/logo.jpeg)
 
-    - The header contains a list with no links, only the game title since this is a one-page site.
+    - The header contains an h1 with the name of the game.
 
 ![Buttons](assets/readme/buttons.jpeg)
 
@@ -94,15 +94,15 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
 
 * **Game Page**
 
-![Landing page](assets/readme/index-pick-lvl.png)
+![Landing page](assets/readme/landing-desktop.png)
 
     - When you land on the page after a short animation loading sequence you are faced with 3 choices of difficulty.
 
-![Rules](assets/readme/index-rules.png)
+![Rules](assets/readme/rules.jpeg)
 
     - A popup div that explains the rules of the game.
 
-![Form](assets/readme/index-form.png)
+![Form](assets/readme/form.png)
 
     - A popup form if the player has any comments.
 
@@ -172,13 +172,13 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
 
 * The [W3C Markup Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator), * [jshint](https://jshint.com) were used to validate the site.
 
-    - The [W3C Markup Validator](https://validator.w3.org/) found no errors in my HTML, but three warnings were found, I disregarded them since they are by choice and have a purpose.
-    ![W3C Markup Validator index](assets/readme/w3c-html-checker.png)
+    - The [W3C Markup Validator](https://validator.w3.org/) found no errors in my HTML.
+    ![W3C Markup Validator index](assets/readme/validator-html-w3.png)
 
     - The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) found one warning that the import of style sheets won't be reviewed.
-    ![W3C CSS Validator](assets/readme/jigsaw-css-validator.png)
+    ![W3C CSS Validator](assets/readme/validator-css-w3.png)
 
-    - [jshint](https://jshint.com) fond 6 functions, 2 arguments. The largest function has 7 statements, the most complex function has a cyclomatic complexity value of 4.
+    - [jshint](https://jshint.com) fond 11 functions, 2 arguments. The largest function has 9 statements, the most complex function has a cyclomatic complexity value of 4.
     ![jshint](assets/readme/jshint.png)
 
 ### Accessibility
@@ -282,10 +282,10 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
 
 Page | Desktop Version | Mobile Version 
 --- | --- | ---
-Index-pick-lvl | ![Desktop version screenshot](assets/readme/index-pick-lvl.png) | ![Mobile version screenshot](assets/readme/index-mobile.png)
-Index-game | ![The game screenshot](assets/readme/index-game.png) | ![Mobile version the game](assets/readme/game-mobile.png)
-Index-rules | ![The rules popup](assets/readme/index-rules.png) | ![Mobile version rules](assets/readme/rules-mobile.png)
-Index-form | ![The form popup](assets/readme/index-form.png) | ![Mobile version form](assets/readme/form-mobile.png)
+Index-pick-lvl | ![Desktop version screenshot](assets/readme/landing-desktop.png) | ![Mobile version screenshot](assets/readme/landing-mobile.png)
+Index-game | ![The game screenshot](assets/readme/game-desktop.png) | ![Mobile version the game](assets/readme/game-mobile.png)
+Index-rules | ![The rules popup](assets/readme/rules-desktop.png) | ![Mobile version rules](assets/readme/rules-mobile.png)
+Index-form | ![The form popup](assets/readme/form-desktop.png) | ![Mobile version form](assets/readme/form-mobile.png)
 
 [Back to top ⇧](#RPSLS)
 
