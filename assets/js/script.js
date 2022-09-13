@@ -3,13 +3,17 @@ const allOptions = ['Rock', 'Paper', 'Scissors', 'Spock', 'Lizard'];
 const conditions = document.getElementById('conditions');
 let playerScore = 0;
 let cpuScore = 0;
+let numWins;
+let cpuWins = 10;
+let outcome = document.getElementById('outcome');
+
 
 // utility for animation on bg
 const animation = document.getElementsByClassName('bg-animation')[0];
 const block = document.getElementsByClassName('block');
 
 // for the animated bg, adds divs to the html as a bg
-for (var i = 1; i < 600; i++){
+for (let i = 1; i < 600; i++){
     animation.innerHTML += "<div class='block'></div>";
     block[i].style.animationDelay = `${i*0.03}s`;
 }

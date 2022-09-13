@@ -110,6 +110,7 @@ body {
 
 .logo-container{
     position: relative;
+    
 }
 
 .logo {
@@ -122,6 +123,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: table;
+    font-size: 2vw;
 }
 
 .logo ul {
@@ -130,7 +132,7 @@ body {
     flex-direction: row;
     height: 100px;
     align-items: center;
-    padding-left: 23%;
+    /* padding-left: 23%; */
 }
 
 ul.horizontal li {
@@ -167,47 +169,6 @@ ul.horizontal li:not(:last-child) {
     transition: 0.4s ease-in-out;
 }
 
-/* #easy {
-    border: 1px solid rgb(77, 168, 116);
-    padding: 5px;
-    border-radius: 15px;
-    transition: 0.4s ease-in-out;
-    cursor: pointer;
-}
-
-#easy:hover {
-    background-color: rgb(216, 233, 137);
-    color: rgb(25, 73, 57);
-    transition: 0.4s ease-in-out;
-}
-
-#medium {
-    border: 1px solid rgb(77, 168, 116);
-    padding: 5px;
-    border-radius: 15px;
-    transition: 0.4s ease-in-out;
-    cursor: pointer;
-}
-
-#medium:hover {
-    background-color: rgb(216, 233, 137);
-    color: rgb(25, 73, 57);
-    transition: 0.4s ease-in-out;
-}
-
-#hard {
-    border: 1px solid rgb(77, 168, 116);
-    padding: 5px;
-    border-radius: 15px;
-    transition: 0.4s ease-in-out;
-    cursor: pointer;
-}
-
-#hard:hover {
-    background-color: rgb(216, 233, 137);
-    color: rgb(25, 73, 57);
-    transition: 0.4s ease-in-out;
-} */
 
 /* Game board */
 
@@ -219,20 +180,22 @@ ul.horizontal li:not(:last-child) {
     border-radius: 15px;
 }
 
-
 /* Button styling */
-
 .btn {
     font-size: 2.5rem;
     border-radius: 50%;
     border: 5px solid;
     cursor: pointer;
+    margin: 15px;
+    position: absolute;
 }
 
 .rock {
     border-color: rgb(139, 0, 0);
     color: rgb(255, 0, 0);
     box-shadow: 5px 10px 15px rgb(255, 0, 0);
+    margin-top: 55px;
+    margin-left: -222px;
 }
 
 .rock:hover {
@@ -246,6 +209,8 @@ ul.horizontal li:not(:last-child) {
     border-color: rgb(184, 134, 11);
     color: rgb(255, 255, 0);
     box-shadow: 5px 10px 15px rgb(255, 255, 0);
+    margin-top: 15px;
+    margin-left: -142px;
 }
 
 .paper:hover {
@@ -259,6 +224,8 @@ ul.horizontal li:not(:last-child) {
     border-color: rgb(148, 0, 211);
     color: rgb(238, 130, 238);
     box-shadow: 5px 10px 15px rgb(238, 130, 238);
+    margin-top: 0;
+    margin-left: -53px;
 }
 
 .scissors:hover {
@@ -272,6 +239,8 @@ ul.horizontal li:not(:last-child) {
     border-color: rgb(0, 100, 0);
     color: rgb(0, 128, 0);
     box-shadow: 5px 10px 15px rgb(0, 128, 0);
+    margin-top: 15px;
+    margin-left: 33px;
 }
 
 .lizard:hover {
@@ -285,6 +254,8 @@ ul.horizontal li:not(:last-child) {
     border-color: rgb(0, 0, 139);
     color:rgb(0, 0, 255);
     box-shadow: 5px 10px 15px rgb(0, 0, 255);
+    margin-top: 55px;
+    margin-left: 117px;
 }
 
 .spock:hover {
@@ -304,7 +275,7 @@ ul.horizontal li:not(:last-child) {
     padding: 10px 60px;
     border: 0;
     border-radius: 20px;
-    margin-top: 40px;
+    margin-top: 150px;
     outline: none;
     text-transform: uppercase;
     font-size: larger;
@@ -479,9 +450,14 @@ footer{
 @media screen and (max-width:420px){
     
     .logo {
-        width: auto;
+        width: 95%;
+        height: 100px;
         padding: 0;
-        box-shadow: none;   
+    }
+
+    .logo h1 {
+        font-size: 3vh;
+        margin-top: 10%;
     }
 
     .landing-page {
@@ -493,21 +469,50 @@ footer{
         margin: 10px 5px;
     }
 
-    .logo ul {
-        font-size: small;
-        padding: 0;
-    }
-
     .player-option{
         height: 100px;
     }
 
     .btn{
         font-size: 30px;
+        padding: 15px;
+    }
+
+    .rock {
+        margin-top: 82px;
+        margin-left: -180px;
+    }
+
+    .paper {
+        margin-top: 16px;
+        margin-left: -132px;
+    }
+
+    .scissors {
+        margin-top: 0;
+        margin-left: -48px;
+    }
+
+    .lizard {
+        margin-top: 16px;
+        margin-left: 37px;
+    }
+
+    .spock {
+        margin-top: 82px;
+        margin-left: 105px;
+    }
+
+    .btn-collapse {
+        margin-top: 80px;
     }
 
     .rules {
-        width: 150px;
-        font-size: 10px;
+        width: 82%;
+        font-size: 15px;
+    }
+
+    .feedback {
+        width: 82%;
     }
 }

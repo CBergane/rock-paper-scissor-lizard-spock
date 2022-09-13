@@ -179,7 +179,7 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
     ![W3C CSS Validator](assets/readme/jigsaw-css-validator.png)
 
     - [jshint](https://jshint.com) fond 6 functions, 2 arguments. The largest function has 7 statements, the most complex function has a cyclomatic complexity value of 4.
-    ![jshint](assets/readme/java-jshint-.png)
+    ![jshint](assets/readme/jshint.png)
 
 ### Accessibility
 
@@ -204,10 +204,61 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
     **Google Chrome**
         
         No appearance, responsiveness nor functionality issues.
+        Tested rules button:
+            Expectations:
+                - The div will open middle of the screen and be able to close again.
+            Outcome:
+                - The outcome was as expected.
+        The form button has been tested:
+            Expectations:
+                - The form will open as the rules button and the form will be sent and a successful form dump will open in a new tab.
+            Outcome:
+                - The outcome was as expected.
+        The different difficulty spans were tested on click.
+            Expectations:
+                - Different win conditions were expected to be displayed in the next div and to hide the landing-page div.
+            Outcome:
+                - Outcome was as expected.
+        The back button was tested:
+            Expectations:
+                - Hide the score div and reshow the landing-page div again.
+            Outcome:
+                - Outcome was as expected.
+        The player buttons were tested:
+            Expectations:
+                - That the correct choice was to be displayed and compared with the CPUs choice and deliver an outcome and a correct score will be displayed.
+            Outcome:
+                - Outcome was as expected.
+            
 
     **Safari**
         
-        No appearance, responsiveness nor functionality issues.
+               No appearance, responsiveness nor functionality issues.
+        Tested rules button:
+            Expectations:
+                - The div will open middle of the screen and be able to close again.
+            Outcome:
+                - The outcome was as expected.
+        The form button has been tested:
+            Expectations:
+                - The form will open as the rules button and the form will be sent and a successful form dump will open in a new tab.
+            Outcome:
+                - The outcome was as expected.
+        The different difficulty spans were tested on click.
+            Expectations:
+                - Different win conditions were expected to be displayed in the next div and to hide the landing-page div.
+            Outcome:
+                - Outcome was as expected.
+        The back button was tested:
+            Expectations:
+                - Hide the score div and reshow the landing-page div again.
+            Outcome:
+                - Outcome was as expected.
+        The player buttons were tested:
+            Expectations:
+                - That the correct choice was to be displayed and compared with the CPUs choice and deliver an outcome and a correct score will be displayed.
+            Outcome:
+                - Outcome was as expected.
 
 * Device compatibility
 
