@@ -20,10 +20,8 @@ for (let i = 1; i < 600; i++){
 
 // hides and shows landing page and game page 
 let startGames = document.querySelector('.score');
-let isShow = true;
 
 function startGame(wins){
-    isShow = !isShow;
     startGames.classList.toggle('hidden');
     document.getElementById( 'start-game' ).style.display = 'none';
     numWins = wins;
@@ -35,13 +33,12 @@ function startGame(wins){
 }
 
 let returnMenus = document.querySelector('.score');
-let isReShow = true;
 
 // Return to starting menu
 function returnMenu() {
-    isReShow = !isReShow;
-    returnMenus.classList.add('hidden', isReShow);
-    document.getElementById( 'start-game' ).style.display = 'block';
+    returnMenus.classList.add('hidden');
+    returnMenus.classList.remove('true', 'false');
+    document.getElementById('start-game').style.display = 'block';
 }
 
 // add event listener on click for buttons options
