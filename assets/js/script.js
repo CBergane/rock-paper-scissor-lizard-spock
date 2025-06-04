@@ -40,7 +40,7 @@ let isReShow = true;
 // Return to starting menu
 function returnMenu() {
     isReShow = !isReShow;
-    returnMenus.classList.add('hidden', isReShow);
+    returnMenus.classList.toggle('hidden', isReShow);
     document.getElementById( 'start-game' ).style.display = 'block';
 }
 
