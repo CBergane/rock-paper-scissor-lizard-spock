@@ -178,7 +178,7 @@ Index | ![Desktop index wireframe image](assets/wireframes/rock-paper-scissors-l
     - The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) found one warning that the import of style sheets won't be reviewed.
     ![W3C CSS Validator](assets/readme/validator-css-w3.png)
 
-    - [jshint](https://jshint.com) fond 11 functions, 2 arguments. The largest function has 9 statements, the most complex function has a cyclomatic complexity value of 4.
+    - [jshint](https://jshint.com) found 11 functions, 2 arguments. The largest function has 9 statements, the most complex function has a cyclomatic complexity value of 4.
     ![jshint](assets/readme/jshint.png)
 
 ### Accessibility
